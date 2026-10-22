@@ -1,0 +1,46 @@
+# ==========================================
+# .gitignore - Simulador de Combate Espacial
+# ==========================================
+
+# Ejecutables y binarios compilados
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Archivos de depuracion y compilacion
+*.pdb
+*.ilk
+*.exp
+*.log
+build/
+bin/
+Debug/
+Release/
+x64/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.code-workspace
+*.sln
+*.vcxproj*
+*.dev
+*.layout
+*.depend
+
+# Sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~
